@@ -1,0 +1,13 @@
+ChatChatBundle_homepage:
+    pattern:  /
+    defaults: { _controller: ChatChatBundle:Chat:index }
+    
+chat_chat_ajax:
+    pattern:  /envoi
+    defaults: { _controller: ChatChatBundle:Chat:postajax }
+    
+chat_actualiserMsg:
+    pattern:  /actualiser
+    defaults: { _controller: ChatChatBundle:Chat:actualiser }   
+   
+    
